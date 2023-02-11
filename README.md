@@ -1,4 +1,4 @@
-# g0v_googlespreadsheet_to_txt
+# g0v_projectlist_to_videolist
 g0v hackathon project list to youtube video subjects
 
 Goal
@@ -8,5 +8,5 @@ Goal
 Usage
  - Python
   - Download project list as a Google spreadsheat file and save it as an excel.
-  - Run this command to generate the video lists:  python g0v_hackmd_to_videolist.py "https://docs.google.com/spreadsheets/d/[Google Spreadsheet ID]" 54 "兔兔黑客松"
+  - Run this command to generate the video lists:  python g0v_projectlist_to_videolist.py "https://docs.google.com/spreadsheets/d/[Google Spreadsheet ID]" 54 "兔兔黑客松"
   - The 1st paramater is the excel file name, the 2nd parameter is number of the order, the 3rd paramter is the name of the hackathon.
