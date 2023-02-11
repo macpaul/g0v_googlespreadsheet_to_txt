@@ -21,7 +21,7 @@ df = pd.read_excel(io.BytesIO(response.content))
 # df = pd.read_excel(file_name)
 
 # 確認欄位名稱
-print(df.columns)
+# print(df.columns)
 
 # 刪除所有含有 NaN 的行
 df = df.dropna(subset=['Unnamed: 6'])
